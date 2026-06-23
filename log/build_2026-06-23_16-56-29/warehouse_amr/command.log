@@ -1,0 +1,4 @@
+Invoking command in '/home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr -- -j16 -l16
+Invoked command in '/home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr -- -j16 -l16
+Invoking command in '/home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr
+Invoked command in '/home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr

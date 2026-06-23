@@ -1,0 +1,39 @@
+[0.011s] Invoking command in '/home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr -- -j16 -l16
+[0.043s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.192s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.232s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.241s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.303s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.305s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.326s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.382s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.415s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.433s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.443s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[0.468s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.580s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.580s] -- Added test 'lint_cmake' to check CMake code style
+[0.581s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.582s] -- Added test 'xmllint' to check XML markup files
+[0.582s] -- Configuring done
+[0.586s] -- Generating done
+[0.588s] -- Build files have been written to: /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr
+[0.618s] Invoked command in '/home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr -- -j16 -l16
+[0.631s] Invoking command in '/home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr
+[0.641s] -- Install configuration: ""
+[0.641s] -- Installing: /home/rudhratej/work/personal/warehouse_amr/install/warehouse_amr/share/warehouse_amr/urdf
+[0.641s] -- Installing: /home/rudhratej/work/personal/warehouse_amr/install/warehouse_amr/share/warehouse_amr/urdf/bridge.yaml
+[0.641s] -- Installing: /home/rudhratej/work/personal/warehouse_amr/install/warehouse_amr/share/warehouse_amr/urdf/warehouse_amr.urdf.xacro
+[0.641s] -- Installing: /home/rudhratej/work/personal/warehouse_amr/install/warehouse_amr/share/warehouse_amr/worlds
+[0.641s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.641s]   file INSTALL cannot find
+[0.641s]   "/home/rudhratej/work/personal/warehouse_amr/src/warehouse_amr/config": No
+[0.641s]   such file or directory.
+[0.642s] 
+[0.642s] [0m
+[0.642s] -- Installing: /home/rudhratej/work/personal/warehouse_amr/install/warehouse_amr/share/warehouse_amr/worlds/no_roof_small_warehouse.world
+[0.642s] -- Installing: /home/rudhratej/work/personal/warehouse_amr/install/warehouse_amr/share/warehouse_amr/worlds/small_warehouse.world
+[0.644s] Invoked command in '/home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rudhratej/work/personal/warehouse_amr/build/warehouse_amr
