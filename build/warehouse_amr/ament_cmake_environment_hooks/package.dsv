@@ -1,4 +1,0 @@
-source;share/warehouse_amr/local_setup.bash
-source;share/warehouse_amr/local_setup.dsv
-source;share/warehouse_amr/local_setup.sh
-source;share/warehouse_amr/local_setup.zsh

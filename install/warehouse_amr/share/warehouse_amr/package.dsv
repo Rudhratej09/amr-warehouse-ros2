@@ -1,8 +1,0 @@
-source;share/warehouse_amr/hook/cmake_prefix_path.ps1
-source;share/warehouse_amr/hook/cmake_prefix_path.dsv
-source;share/warehouse_amr/hook/cmake_prefix_path.sh
-source;share/warehouse_amr/local_setup.bash
-source;share/warehouse_amr/local_setup.dsv
-source;share/warehouse_amr/local_setup.ps1
-source;share/warehouse_amr/local_setup.sh
-source;share/warehouse_amr/local_setup.zsh
