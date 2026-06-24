@@ -18,7 +18,14 @@ install(DIRECTORY
   worlds
   config
   launch
+  models
+  src
   DESTINATION share/${PROJECT_NAME}
+)
+
+install(PROGRAMS
+  src/human_detect.py
+  DESTINATION lib/${PROJECT_NAME}
 )
  
 if(BUILD_TESTING)
