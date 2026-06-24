@@ -239,6 +239,32 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+      <actor name="human_1">
+      <pose>-1.5 -3 0.4 0 0 0</pose>
+      <skin>
+        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walk">
+        <filename>https://fuel.gazebosim.org/1.0/Mingfei/models/actor/tip/files/meshes/walk.dae</filename>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+      <script>
+        <loop>true</loop>
+        <auto_start>true</auto_start>
+        <trajectory id="0" type="walk">
+          <waypoint>
+            <time>0</time>
+            <pose>-1.5 -3 0.4 0 0 0</pose>
+          </waypoint>
+          <waypoint>
+            <time>1</time>
+            <pose>-1.5 -3 0.4 0 0 0</pose>
+          </waypoint>
+        </trajectory>
+      </script>
+    </actor>
 
   </world>
 </sdf>
+
